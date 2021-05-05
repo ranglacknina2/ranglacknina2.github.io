@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+Prologue by Pixelarity
+pixelarity.com | hello@pixelarity.com
+License: pixelarity.com/license
+-->
+
+<html>
+
+<head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(450, 1fr));
+            grid-gap: 20px;
+            align-items: stretch;
+            justify-items: stretch;
+            margin: 0 4%;
+        }
+
+
+        .grid a {
+            position: relative;
+            transition: 0.2s ease;
+            overflow: hidden;
+        }
+
+        .grid>article img {
+            max-width: 100%;
+            filter: brightness(0.6);
+            transition: 0.5s ease;
+            overflow: hidden;
+            max-height: 495px;
+            min-height: 450px;
+        }
+
+        .grid>article:hover img {
+            max-width: 100%;
+            filter: brightness(0.3);
+            transform: scale(1.09);
+        }
+
+
+
+
+
+        .grid h4 {
+            position: absolute;
+            top: 39%;
+            right: 0;
+            left: 0;
+            text-align: center;
+            color: white;
+            font-size: inherit;
+            line-height: 1.2;
+            FONT-WEIGHT: 500;
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header">
+
+        <div class="top">
+
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="title">Nina Logan</h1>
+                <p>Interior Designer</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
+                    </li>
+                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="bottom">
+
+            <!-- Social Icons -->
+            <ul class="icons">
+
+                <li style="float: left;
+                margin-left: 6%;"><a href="https://www.linkedin.com/in/ninalogan/" class="icon brands fa-linkedin"
+                        target="_blank"><span class="label">LinkedIn</span></a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
+            <div class="container">
+
+                <header>
+                    <h2 class="alt">"The soul never thinks without a picture"
+                    </h2>
+                    <p>-Aristotle
+                    </p>
+                </header>
+
+                <footer>
+
+                </footer>
+
+            </div>
+        </section>
+
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="two">
+
+            <main class="grid">
+                <article>
+                    <a href="/lens/index.html" class="image fit"> <img src="images/Project-thumbnails/2.JPG" alt="" />
+                        <h4>Kitchen <br> I</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/kitchen-ii.html" class="image fit"> <img src="images/Project-thumbnails/1.png"
+                            alt="" />
+                        <h4>Kitchen <br> II</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/bath-i.html" class="image fit"> <img src="images/Project-thumbnails/3.JPG" alt="" />
+                        <h4>Bath <br> I</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/bath-ii.html" class="image fit"> <img src="images/Project-thumbnails/4.JPG" alt="" />
+                        <h4>Bath<br> II</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/restaurant-cafe.html" class="image fit"> <img src="images/Project-thumbnails/5.png"
+                            alt="" />
+                        <h4>Restaurant & Café</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/kinetic.html" class="image fit"> <img src="images/Project-thumbnails/6.png" alt="" />
+                        <h4>Kinetic Object</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/kemmlit.html" class="image fit"> <img src="images/Project-thumbnails/7.jpg" alt="" />
+                        <h4>Kemmlit: <br>Design Competition </h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/furniture.html" class="image fit"> <img src="images/Project-thumbnails/8.png"
+                            alt="" />
+                        <h4>Furniture Design <br> & <br> Construction</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/breakroom.html" class="image fit"> <img src="images/Project-thumbnails/9.png"
+                            alt="" />
+                        <h4>Bosch Rexroth: <br> Break Room</h4>
+                    </a>
+                </article>
+                <article>
+                    <a href="/lens/stairs.html" class="image fit"> <img src="images/Project-thumbnails/10.jpg" alt="" />
+                        <h4>Architectural Design: <br> Stairs</h4>
+                    </a>
+                </article>
+
+
+            </main>
+
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>About Me</h2>
+                </header>
+
+
+
+                <p>Hey there and welcome to my website! My name is Nina and I am an interior designer. On this website I
+                    share my projects and attempt to exhibit the passion, style, and precision, I bring to my craft.
+                    At the end of 2019, my green card was approved, and I moved to the US from my home country in
+                    Germany to explore this beautiful land and the exciting amount of opportunities that exist here.
+                </p>
+
+                <p>I love what I do. My passion for design can be illustrated as the joy I experience when seeing an
+                    idea become a reality. It also makes me proud to create something with my own hands to make others
+                    happy and able to call it their “home.” As an Interior designer, I am a specialist in transforming
+                    proportions and spatial structures.
+                    From conception to planning until realization, I devote myself to each step of the process to ensure
+                    my clients’ expectations are always met.
+                    In my free time, I enjoy outdoor activities, woodwork and various types of art such as photography
+                    and music.
+                    <br>
+                    I hope you enjoy!
+                    <br>
+                    - Nina
+
+                </p>
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <!-- Footer 
+<div id="footer">
+
+
+<ul class="copyright">
+<li>&copy; Untitled. All rights reserved.</li>
+</ul>
+
+</div>-->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

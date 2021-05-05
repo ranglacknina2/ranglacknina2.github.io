@@ -1,0 +1,4 @@
+gs -dNOPAUSE -dBATCH -sDEVICE=jpeg -r96 -sOutputFile='page-%00d.jpg' 2.pdf
+
+
+pdftoppm -jpeg -r 300 2.pdf 2.jpg
